@@ -23,4 +23,4 @@ Calculadora simples para simular rendimentos baseados no CDI.
 
 ## 📌 Autor
 
-Rhyan Camargo
+Rhyan Riello
