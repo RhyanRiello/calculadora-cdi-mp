@@ -1,61 +1,122 @@
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* BODY */
 body{
 font-family: 'Poppins', sans-serif;
-background:#f2f2f2;
+background:#1e1e1e; /* cinza escuro */
+color:#ffffff;
 padding:40px;
 }
 
+/* CONTAINER */
 .container{
-background:white;
-max-width:520px;
+background:#2a2a2a;
+max-width:500px;
 margin:auto;
 padding:30px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
+border-radius:12px;
+box-shadow:0 0 20px rgba(0,0,0,0.5);
 }
 
+/* TÍTULO */
 h1{
 text-align:center;
-margin-bottom:25px;
+margin-bottom:20px;
+color:#ffe600; /* amarelo Mercado Livre */
 }
 
+/* LABEL */
 label{
 display:block;
 margin-top:15px;
-font-weight:bold;
+font-weight:600;
+color:#cccccc;
 }
 
-input,select{
+/* INPUTS */
+input, select{
 width:100%;
-padding:8px;
+padding:12px;
 margin-top:5px;
-border-radius:5px;
-border:1px solid #ccc;
+border-radius:8px;
+border:none;
+background:#3a3a3a;
+color:white;
+font-size:14px;
+outline:none;
 }
 
+/* FOCO */
+input:focus, select:focus{
+border:1px solid #3483fa; /* azul Mercado Livre */
+}
+
+/* BOTÃO */
 button{
 margin-top:20px;
 width:100%;
-padding:12px;
-background:#00a650;
+padding:14px;
+background:#3483fa; /* azul Mercado Livre */
 color:white;
 border:none;
 font-size:16px;
-border-radius:5px;
+border-radius:8px;
 cursor:pointer;
+font-weight:600;
+transition:0.3s;
 }
 
 button:hover{
-background:#008f44;
+background:#2968c8;
 }
 
+/* RESULTADO */
 .resultado{
 margin-top:25px;
-background:#f7f7f7;
+background:#1e1e1e;
 padding:15px;
-border-radius:8px;
+border-radius:10px;
+border:1px solid #333;
+display:none;
 }
 
+/* TEXTO RESULTADO */
+.resultado p{
+margin:10px 0;
+}
+
+/* VALORES */
 .valor{
 font-weight:bold;
-color:#00a650;
+color:#ffe600; /* amarelo destaque */
+}
+
+/* SUBTÍTULO */
+.subtitulo{
+background:#3483fa;
+padding:10px;
+border-radius:6px;
+text-align:center;
+margin-bottom:15px;
+font-weight:600;
+}
+
+/* BARRA LATERAL */
+.titulo{
+display:flex;
+align-items:center;
+gap:10px;
+margin-bottom:15px;
+}
+
+.barra{
+width:6px;
+height:25px;
+background:#ffe600;
+border-radius:3px;
 }
