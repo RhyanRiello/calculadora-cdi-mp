@@ -6,24 +6,57 @@ padding:40px;
 
 .container{
 background:#434343;
-max-width:500px;
+max-width:520px;
 margin:auto;
 padding:30px;
 border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
 h1{
-color:white;
 text-align:center;
+margin-bottom:25px;
+color: white;
+}
+
+label{
+display:block;
+margin-top:15px;
+font-weight:bold;
+}
+
+input,select{
+width:100%;
+padding:8px;
+margin-top:5px;
+border-radius:5px;
+border:1px solid #ccc;
 }
 
 button{
 margin-top:20px;
 width:100%;
 padding:12px;
-background:#ff7a00;
+background:#ffe600;
 color:white;
 border:none;
-border-radius:6px;
+font-size:16px;
+border-radius:5px;
 cursor:pointer;
+}
+
+button:hover{
+background:#bba800;
+}
+
+.resultado{
+margin-top:25px;
+background:#f7f7f7;
+padding:15px;
+border-radius:8px;
+}
+
+.valor{
+font-weight:bold;
+color:#00a650;
 }
