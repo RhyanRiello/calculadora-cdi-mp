@@ -1,11 +1,11 @@
 body{
-font-family: 'Poppins', sans-serif;
+font-family: Arial;
 background:#f2f2f2;
 padding:40px;
 }
 
 .container{
-background:#434343;
+background:white;
 max-width:520px;
 margin:auto;
 padding:30px;
@@ -16,7 +16,6 @@ box-shadow:0 0 10px rgba(0,0,0,0.1);
 h1{
 text-align:center;
 margin-bottom:25px;
-color: white;
 }
 
 label{
@@ -37,7 +36,7 @@ button{
 margin-top:20px;
 width:100%;
 padding:12px;
-background:#ffe600;
+background:#00a650;
 color:white;
 border:none;
 font-size:16px;
@@ -46,7 +45,7 @@ cursor:pointer;
 }
 
 button:hover{
-background:#bba800;
+background:#008f44;
 }
 
 .resultado{
