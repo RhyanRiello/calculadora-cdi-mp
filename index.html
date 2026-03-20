@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+
 <meta charset="UTF-8">
 <title>Calculadora CDI</title>
 
-<link rel="stylesheet" href="css/style.css">
-<script src="js/script.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+
+</head>
 
 <body>
 
+<!-- FUNDO ANIMADO -->
+<div class="money-bg"></div>
+
+<!-- BRILHOS -->
+<div class="sparkle" style="top:20%;left:15%;"></div>
+<div class="sparkle" style="top:70%;left:40%;"></div>
+<div class="sparkle" style="top:50%;left:80%;"></div>
+<div class="sparkle" style="top:30%;left:60%;"></div>
+<div class="sparkle" style="top:80%;left:20%;"></div>
+
 <div class="container">
+
+<!-- CALCULADORA -->
+<div class="calculadora">
 
 <h1>Calculadora de Rendimento CDI</h1>
 
@@ -35,6 +51,9 @@
 
 <button id="btnCalcular">Calcular</button>
 
+</div>
+
+<!-- RESULTADOS -->
 <div class="resultado" id="resultado" style="display:none">
 
 <p>📈 Rendimento Diário Bruto: <span class="valor" id="diaBruto"></span></p>
@@ -48,6 +67,14 @@
 </div>
 
 </div>
-<script src="js/script.js"></script>
+
+<script src="script.js"></script>
+
+<div class="autor">
+by: Rhyan Riello
+</div>
+
 </body>
+
+
 </html>
